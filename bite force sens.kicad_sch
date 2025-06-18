@@ -4345,6 +4345,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 57.912 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a897a00-542f-47ba-bd39-07d833962d6a")
+		(property "Reference" "R8"
+			(at 59.944 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 59.944 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.134 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.912 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.912 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60d29b08-05f3-4fe0-8d47-748c21b29b7b")
+		)
+		(pin "2"
+			(uuid "f64ca5bc-f653-420e-b34a-afe7e8ca2fe9")
+		)
+		(instances
+			(project "bite force sens"
+				(path "/3593a1b8-1220-470f-a3ee-4529e20730d6"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 180.34 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
