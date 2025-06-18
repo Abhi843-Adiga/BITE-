@@ -5,7 +5,7 @@
 	(uuid "3593a1b8-1220-470f-a3ee-4529e20730d6")
 	(paper "A4")
 	(title_block
-		(title "bite force sensor")
+		(title "bfs")
 		(date "15-04-2025")
 		(company "Varidhi educational products")
 	)
