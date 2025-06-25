@@ -493,76 +493,24 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgb(255, 10, 3)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "schematic_color": "rgb(255, 0, 255)",
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "signal",
-        "pcb_color": "rgb(125, 255, 24)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 7
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(C1-Pad2)": [
-        "signal"
-      ],
-      "Net-(J1-Pin_2)": [
-        "signal"
-      ],
-      "Net-(J1-Pin_3)": [
-        "signal"
-      ],
-      "Net-(J2-Pin_3)": [
-        "signal"
-      ],
-      "Net-(J2-Pin_4)": [
-        "signal"
-      ],
-      "Net-(J4-Pin_3)": [
-        "power"
-      ],
-      "Net-(SW1-B)": [
-        "power"
-      ],
-      "Net-(U2A-+)": [
-        "signal"
-      ],
-      "Net-(U2A--)": [
-        "signal"
-      ],
-      "Net-(U2C-+)": [
-        "signal"
-      ],
-      "Net-(U2D-+)": [
-        "signal"
-      ],
-      "Net-(U2D--)": [
-        "signal"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "power",
@@ -573,12 +521,20 @@
         "pattern": "GND"
       },
       {
-        "netclass": "signal",
-        "pattern": "/Sensor Output"
+        "netclass": "power",
+        "pattern": "/v"
       },
       {
         "netclass": "power",
-        "pattern": "+5V"
+        "pattern": "/3.3"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/+"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/-"
       }
     ]
   },
@@ -657,6 +613,96 @@
         },
         {
           "group_by": false,
+          "label": "1",
+          "name": "1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "2",
+          "name": "2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESCRIPTION",
+          "name": "DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_FARNELL",
+          "name": "OC_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_NEWARK",
+          "name": "OC_NEWARK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PURCHASE-URL",
+          "name": "PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Check_prices",
           "name": "Check_prices",
           "show": false
@@ -687,18 +733,6 @@
         },
         {
           "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
@@ -713,18 +747,6 @@
           "group_by": false,
           "label": "STANDARD",
           "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
           "show": false
         },
         {
