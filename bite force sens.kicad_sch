@@ -1753,16 +1753,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Espressif Systems"
+			(property "Description" "WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1772,7 +1763,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C"
+			(property "MF" "Espressif Systems"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6103,7 +6094,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 185.42 99.06 90)
 			(effects
 				(font
@@ -7385,7 +7376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "esp32 footrpint:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "Library:MODULE_ESP32-C3-WROOM-02-H4"
 			(at 228.6 57.15 0)
 			(effects
 				(font
@@ -8675,7 +8666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
 			(at 26.67 57.15 0)
 			(effects
 				(font
